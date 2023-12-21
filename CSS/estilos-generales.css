@@ -1,0 +1,80 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+:root {
+  --primary: rgb(255, 149, 50);
+  --white: #ffffff;
+  --bg: #f5f2ed;
+  --white:#FFF;
+  --black:#000;
+  --lite:rgba(255,255,255,0.6);
+  --gray:rgba(1,1,1,0.6);
+  --dark:#1e1e1d;
+  --primary1:#d6863a;
+  --primary_dark:#93683f;
+  /* --primary_lite:#ebab61;
+  --secondary:;
+  --secondary_dark:;
+  --secondary_lite:;
+  --default_font:'Nunito Sans', sans-serif;
+  --title_font:; */
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+
+@media (min-width: 1440px) {
+  html {
+    zoom: 1.2;
+  }
+}
+
+@media (min-width: 2560px) {
+  html {
+    zoom: 1.7;
+  }
+}
+
+@media (min-width: 3860px) {
+  html {
+    zoom: 2.5;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 1.3rem;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 1rem;
+  background: #797979;
+  transition: all 0.5s ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #222224;
+}
+
+::-webkit-scrollbar-track {
+  background: #f9f9f9;
+}
+
+body{
+  margin:0;
+  overflow-x:hidden !important;
+  font-family: var(--default_font);
+  font-size: 1.6rem;
+  background: var(--bg);
+}
