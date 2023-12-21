@@ -1,6 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 /* Estilos preloader */
 .hidden{
-    display:  none;
+    display:  block;
 }
  .preloader {
     padding-top: 150px;
@@ -62,10 +63,8 @@
   }
 /* estilos de prueba */
 
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
 *,
 *::before,
 *::after {
@@ -140,7 +139,7 @@ html {
 body{
   margin:0;
   overflow-x:hidden !important;
-  font-family: var(--default_font);
+  font-family: "Montserrat", sans-serif;
   font-size: 1.6rem;
   background: var(--bg);
 }
