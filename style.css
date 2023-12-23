@@ -1,5 +1,4 @@
-
-
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Playball&family=Poppins:wght@300;400;500;600&display=swap');
 
 /* Estilos del Slider-Titulo Jhonsmaros */
 .container {
@@ -14,8 +13,10 @@
 
 .title-description{
   font-family: "Montserrat", sans-serif;
-  color: #585858;
-  font-style: italic;
+  color: #373737;
+  font-style: normal;
+  font-size: 18px;
+  letter-spacing: 2px;
 }
 
 .text-center {
@@ -23,9 +24,10 @@
 }
 
 .section-heading {
-  font-size: 3rem;
+  font-family: 'Playball', cursive;
+  font-size: 90px;
   color: var(--primary);
-  padding: 2rem 0;
+
 }
 
 #tranding {
