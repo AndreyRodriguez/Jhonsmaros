@@ -37,7 +37,10 @@ html {
 
 @media (min-width: 1440px) {
   html {
-    zoom: 1.2;
+    zoom: 0.7;
+  }
+  .encabezado{
+    zoom: 1.5;
   }
 }
 
