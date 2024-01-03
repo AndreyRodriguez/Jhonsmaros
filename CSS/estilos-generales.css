@@ -42,6 +42,11 @@ html {
   .encabezado{
     zoom: 1.5;
   }
+
+  .container-prueba{
+    zoom: 1.2;
+  }
+
 }
 
 @media (min-width: 2560px) {
