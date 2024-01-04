@@ -15,7 +15,7 @@
   font-family: "Montserrat", sans-serif;
   color: #373737;
   font-style: normal;
-  font-size: 18px;
+  font-size: 19px;
   letter-spacing: 2px;
 }
 
@@ -85,30 +85,25 @@
   top: 0;
   right: 0;
   bottom: 0;
-}
-
-.tranding-slide-content .food-price {
-  position: absolute;
-  top: 2rem;
-  right: 2rem;
-  color: var(--white);
+  
 }
 
 .tranding-slide-content .tranding-slide-content-bottom {
-  position: absolute;
-  bottom: 2rem;
-  left: 2rem;
-  color: var(--white);
-}
-
-.food-rating {
-  padding-top: 1rem;
   display: flex;
-  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+
+  color: var(--white);
+  background-color: rgba(19, 41, 137, 0.604);
+
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
 }
 
-.rating ion-icon {
-  color: var(--primary);
+.food-name{
+  font-size: 18px;
+  padding: 7px;
+  letter-spacing: 1px;
 }
 
 .swiper-slide-shadow-left,
