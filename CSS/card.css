@@ -241,7 +241,7 @@ a{
 }
 
 .image-wrapper img{
-    max-width: 100%;
+    max-width: 500px;
     min-width: 10px;
 }
 
