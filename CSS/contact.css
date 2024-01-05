@@ -172,7 +172,7 @@ a{
 
 .glass-container{
     display: block;
-    max-width: 72vw;
+    max-width: 69vw;
     margin-top: 10vh;
     margin-bottom: 30px;
     background: rgba(235, 126, 23, 0.56);
@@ -200,11 +200,11 @@ a{
 
 
 .main-content{
-  padding-top: 3vh;
+  padding-top: 2.8vh;
 }
 
 .main{
-    margin-top: 10vh;
+    margin-top: 7vh;
     display: inline-block;
     padding: 20px;
 }
@@ -219,8 +219,8 @@ a{
 }
 
 .button-card{
-    margin-top: 10px;
-    width: 100%;
+    margin-top: 18px;
+    width: 50%;
     height: 40px;
     font-size: 15px;
     color: #fff;
@@ -246,6 +246,29 @@ a{
     max-width: 100%;
     min-width: 10px;
 }
+
+.logo-card{
+  margin-left: 20px;
+}
+
+.p_about{
+  max-width: 90%;
+  margin-top: 12px;
+}
+
+.p_number{
+  margin-top: 15px;
+  size: 4vh;
+
+}
+  
+.number_contact{
+  color: #6163d9;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
 
 /* Estos son los estilos del mapa */
 
@@ -332,7 +355,7 @@ a{
 @media screen and (max-width: 425px) {
     .glass-container {
         padding: 20px;
-        max-width: 90vw;
+        max-width: 92vw;
     }
 
     .logo-card {

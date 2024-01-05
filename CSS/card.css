@@ -172,7 +172,7 @@ a{
 
 .glass-container{
     display: block;
-    max-width: 72vw;
+    max-width: 74vw;
     margin-top: 10vh;
     margin-bottom: 30px;
     background: rgba(235, 126, 23, 0.56);
@@ -215,10 +215,15 @@ a{
     font-size: 16px;
     line-height: 23px;
 }
-
+ 
 .button-card{
-    margin-top: 10px;
-    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    margin-top: 30px;
+    width: 50%;
     height: 40px;
     font-size: 15px;
     color: #fff;
@@ -236,13 +241,26 @@ a{
 
 .image-wrapper{
     display: flex;
-    margin-top: 5vh;
+    margin-top: 3vh;
     position: relative;
 }
 
 .image-wrapper img{
     max-width: 500px;
     min-width: 10px;
+}
+
+.logo-card{
+  margin-left: 20px;
+}
+
+.maria-color{
+  color: #6163d9;
+}
+
+.p_about{
+  max-width: 90%;
+  margin-top: 12px;
 }
 
 /* Media query para pantallas hasta 320px */
@@ -282,7 +300,7 @@ a{
 @media screen and (max-width: 425px) {
     .glass-container {
         padding: 20px;
-        max-width: 90vw;
+        max-width: 92vw;
     }
 
     .logo-card {
